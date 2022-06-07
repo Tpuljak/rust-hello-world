@@ -6,7 +6,7 @@ services:
       - name: FIRST_TIME_CACHE
         value: /ide/.ft_cache
       - name: INIT_FILE_OPEN
-        value: /app/examples/getting_started/Program.cs
+        value: /app/main.rs
     volumeMounts: []
     limits:
       cpu: 2
