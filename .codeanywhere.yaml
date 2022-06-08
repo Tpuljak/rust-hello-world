@@ -16,6 +16,8 @@ services:
     env:
       - name: MYSQL_ROOT_PASSWORD
         value: aBadPassword123
+      - name: MYSQL_DATABASE
+        value: paymentsdb
     volumeMounts: []
     limits:
       cpu: 1
