@@ -1,0 +1,7 @@
+{
+	"name": "Rust Hello World",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "rust",
+	"workspaceFolder": "/workspaces/rust-hello-world",
+	"remoteUser": "vscode"
+}
