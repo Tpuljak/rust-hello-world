@@ -1,7 +1,7 @@
 version: '3'
 services:
   rust:
-    build: ./Dockerfile
+    dockerfile: ./Dockerfile
   db:
     image: mysql:8
     environment:
