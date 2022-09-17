@@ -3,6 +3,7 @@ services:
   rust:
     build:
       dockerfile: ./Dockerfile
+      context: .
   db:
     image: mysql:8
     environment:
