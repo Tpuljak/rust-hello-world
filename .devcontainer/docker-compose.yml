@@ -5,7 +5,7 @@ services:
       dockerfile: ./Dockerfile
       context: .
     command: tail -F anything
-    network: host
+    network_mode: "host"
   db:
     image: mysql:8
     environment:
