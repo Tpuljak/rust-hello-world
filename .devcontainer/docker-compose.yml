@@ -4,7 +4,7 @@ services:
     build:
       dockerfile: ./Dockerfile
       context: .
-    command: tail -F anything
+    command: /bin/sh -c "while sleep 1000; do :; done"
   db:
     image: mysql:8
     environment:
