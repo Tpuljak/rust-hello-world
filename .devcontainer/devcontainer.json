@@ -3,7 +3,7 @@
   "dockerComposeFile": "docker-compose.yml",
   "service": "rust",
   "workspaceFolder": "/workspaces/rust-hello-world",
-  "workspaceMount": "/workspace/rust-hello-world",
+  "workspaceMount": "source=/workspace/rust-hello-world,target=/workspaces/rust-hello-world,type=bind",
   "features": {
     "ghcr.io/devcontainers/features/common-utils:1": {
       "installZsh": "true",
