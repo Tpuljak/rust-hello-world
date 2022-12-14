@@ -29,15 +29,7 @@
           "**/target/**": true
         },
         "rust-analyzer.checkOnSave.command": "clippy"
-      },
-      // Add the IDs of extensions you want installed when the container is created.
-      "extensions": [
-        "vadimcn.vscode-lldb",
-        "mutantdino.resourcemonitor",
-        "rust-lang.rust-analyzer",
-        "tamasfe.even-better-toml",
-        "serayuzgur.crates"
-      ]
+      }
     }
   },
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
